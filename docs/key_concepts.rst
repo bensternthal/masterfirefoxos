@@ -32,6 +32,21 @@ The slug will also appear in urls:
 When adding a new FFOS version or locale changes must also be made by a developer to the settings
 file. This is a once per version or locale change.
 
+TinyMCE Editor
+--------------
+
+Most of the text entry fields allow you to use a WYSIWYG editor. This makes formatting text easier,
+you will not have to enter any HTML tags. To activate the editor click **Activate TinyMCE**
+as shown:
+
+.. image:: images/activatetinymce.png
+
+.. warning::
+
+   Do not manually type in HTML tags, if you do and you activate/deactivate TinyMCE your
+   tags can get rendered as entities. If this occurs you will need to **edit source** in
+   TinyMCE to correct the errors.
+
 
 
 
