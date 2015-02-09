@@ -132,6 +132,10 @@ CSP_FONT_SRC = (
     'http://*.mozilla.net',
     'https://*.mozilla.net'
 )
+CSP_FRAME_SRC = (
+    "'self'",
+    'www.googletagmanager.com',
+)
 CSP_IMG_SRC = (
     "'self'",
     'http://*.mozilla.net',
@@ -143,12 +147,15 @@ CSP_IMG_SRC = (
 )
 CSP_SCRIPT_SRC = (
     "'self'",
+    "'unsafe-eval'",
+    "'unsafe-inline'",
     'http://www.mozilla.org',
     'https://www.mozilla.org',
     'http://*.mozilla.net',
     'https://*.mozilla.net',
     'https://pontoon.mozilla.org',
     'https://pontoon-dev.allizom.org',
+    'www.googletagmanager.com',
 )
 CSP_STYLE_SRC = (
     "'self'",
